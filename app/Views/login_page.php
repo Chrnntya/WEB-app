@@ -46,8 +46,15 @@
 										<input type="checkbox" class="custom-control-input" id="customCheck">
 									</div>
 								</div>
+								<p class="text-center">Demo</p>
 								<a href="<?= base_url('SuperAdmin'); ?>" class="btn btn-primary btn-user btn-block">
-									Login
+									Login as Super Admin
+								</a>
+								<a href="<?= base_url('Admin'); ?>" class="btn btn-primary btn-user btn-block">
+									Login as Admin
+								</a>
+								<a href="<?= base_url('Pegawai'); ?>" class="btn btn-primary btn-user btn-block">
+									Login as Pegawai
 								</a>
 							</form>
 							<div class="text-center">

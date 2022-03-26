@@ -7,13 +7,13 @@
             <!-- Main Content -->
             <div id="content">
                 <!-- /.container-fluid -->
-                <h3>Tampilan tabel cabang</h3>
+                <h3>Tampilan tabel history</h3>
 
             </div>
             <!-- End of Main Content -->
+
         </div>
         <!-- End of Content Wrapper -->
     </div>
     <!-- End of Page Wrapper -->
-    
 <?php $this->endSection(); ?>

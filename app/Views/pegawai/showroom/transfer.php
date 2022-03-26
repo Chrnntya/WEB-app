@@ -1,4 +1,4 @@
-<?php $this->extend('layouts/super-admin/templates'); ?>
+<?php $this->extend('layouts/pegawai/templates'); ?>
 <?php $this->section('content'); ?>
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -7,7 +7,7 @@
             <!-- Main Content -->
             <div id="content">
                 <!-- /.container-fluid -->
-                <h3>Tampilan tabel cabang</h3>
+                <h3>Tampilan tabel transfer</h3>
 
             </div>
             <!-- End of Main Content -->
@@ -15,5 +15,4 @@
         <!-- End of Content Wrapper -->
     </div>
     <!-- End of Page Wrapper -->
-    
 <?php $this->endSection(); ?>

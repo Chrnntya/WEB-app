@@ -7,7 +7,7 @@
             <!-- Main Content -->
             <div id="content">
                 <!-- /.container-fluid -->
-                <h3>Tampilan tabel cabang</h3>
+                <h3>Tampilan tabel pameran</h3>
 
             </div>
             <!-- End of Main Content -->
@@ -15,5 +15,4 @@
         <!-- End of Content Wrapper -->
     </div>
     <!-- End of Page Wrapper -->
-    
 <?php $this->endSection(); ?>

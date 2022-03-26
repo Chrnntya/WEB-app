@@ -1,25 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <?= $this->renderSection('styles') ?>
-</head>
-
-<body id="page-top">
-    <!-- Page Wrapper -->
+<?php $this->extend('layouts/super-admin/templates'); ?>
+<?php $this->section('content'); ?>
     <div id="wrapper">
         <!-- Sidebar -->
-        <?= $this->include('/layouts/super-admin/sidebar') ?>
         <!-- End of Sidebar -->
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
             <!-- Main Content -->
             <div id="content">
                 <!-- Topbar -->
-                <?= $this->include('/layouts/super-admin/topbar') ?>
+                
                 <!-- End of Topbar -->
                 <!-- Begin Page Content -->
-                <?= $this->renderSection('content') ?>
+                
                 <!-- /.container-fluid -->
                 <div class="col-xl-9 mb-4">
                     <div class="card border-left-primary shadow h-100 py-2">
@@ -40,17 +32,16 @@
 
                                                 </tr>
                                             </thead>
-                                            <tbody>
+                                            <tbody class="user">
                                                 <tr>
-                                                    <td><img style="width: 100px;;" class="img-profile rounded-circle" src="<?= base_url('assets/img/undraw_profile.svg') ?>"></td>
-                                                    <td>Dani Hartanto</td>
+                                                    <td><img style="width: 100px; vertical-align: middle;" class="img-profile rounded-circle" src="<?= base_url('assets/img/undraw_profile.svg') ?>"></td>
+                                                    <td>Jhon White</td>
                                                     <td>Chief Executive Officer</td>
                                                     <td>Jakarta Barat</td>
                                                     <td style="color: red;">Delete</td>
                                                     <td style="color: blue;">Edit</td>
 
                                                 </tr>
-
                                             </tbody>
                                         </table>
                                     </div>
@@ -67,20 +58,9 @@
 
             </div>
             <!-- End of Main Content -->
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Codelapan <?= Date('Y') ?> </span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
+            
         </div>
         <!-- End of Content Wrapper -->
     </div>
     <!-- End of Page Wrapper -->
-
-</body>
-
-</html>
+<?php $this->endSection(); ?>

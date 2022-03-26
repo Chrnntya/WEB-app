@@ -1,4 +1,4 @@
-<?php $this->extend('layouts/super-admin/templates'); ?>
+<?php $this->extend('layouts/pegawai/templates'); ?>
 <?php $this->section('content'); ?>
     <div id="wrapper">
         <!-- Content Wrapper -->

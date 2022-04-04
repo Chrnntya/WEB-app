@@ -40,3 +40,6 @@ Bisa di filter berdasarkan norangka lalu akan muncul riwayatnya
 Rekapitulasi stok unit
 -bisa di sort berdasarkan stok yg paling banyak
 -berdasarkan penjualan tertinggi
+
+$2y$10$sM7OPU5uKCmyY0RVw8s9i..ikG0xjbAwRYoiWc9LHIynuzpRgJJnC = adminsuper
+$2y$10$ZH5pRdI/wf8HEJouv1/iCea/GLQJqzdnN8ZGd4UrzowePK2LYL3Hq = superadmin

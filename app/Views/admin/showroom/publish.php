@@ -1,4 +1,4 @@
-<?php $this->extend('layouts/super-admin/templates'); ?>
+<?php $this->extend('layouts/admin/templates'); ?>
 <?php $this->section('content'); ?>
     <!-- Page Wrapper -->
     <div id="wrapper">

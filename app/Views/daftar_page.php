@@ -34,30 +34,72 @@
 							<div class="text-center">
 								<h1 class="h4 text-gray-900 mb-4">REGISTER</h1>
 							</div>
-							<form class="user">
-								<div class="form-group">
-									<input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+							<?php if(session()->getFlashdata('error')): ?>
+								<div class="alert alert-danger alert-dismissible show fade">
+									<div>
+										<button class="close" data-dismiss="alert">x</button>
+										<b>error !</b>
+										<?= session()->getFlashdata('error'); ?>
+									</div>
+								</div>
+							<?php endif; ?>
+							<?php
+							$karakter = '123456789';
+							$shuffle  = substr(str_shuffle($karakter), 0, 9);
+							$kode  = substr(str_shuffle($karakter), 0, 2);
+							$superadmin = "SPADM";
+							$admin = "ADM";
+							$user = "USR";
+
+							?>
+							<form class="user" method="post" action="<?= base_url(); ?>/register/process">
+							<div class="form-group">
+									<input type="hidden" name="userid" class="form-control form-control-user" id="exampleInputEmail" value="<?= $kode.$superadmin.$shuffle; ?>">
 								</div>
 								<div class="form-group">
-									<input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+									<input type="text" name="username" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Username">
 								</div>
 								<div class="form-group">
-									<input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+									<input type="password" name="pass" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
 								</div>
+								<div class="form-group">
+									<input type="password" name="pass_conf" class="form-control form-control-user" id="exampleInputPassword" placeholder="Konfirmasi Password">
+								</div>
+								<div class="form-group">
+									<input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email">
+								</div>
+								<div class="form-group">
+									<input type="text" name="namalengkap" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Nama Lengkap">
+								</div>
+								<div class="form-group">
+									<select name="cabang" id="cabang">
+										<option value="JAKARTA">JAKARTA</option>
+										<option value="SURABAYA">SURABAYA</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<select name="akses" id="akses">
+										<option value="1">Super Admin</option>
+										<option value="2">Admin</option>
+										<option value="3">Pegawai</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<input type="hidden" name="isaktif" class="form-control form-control-user" id="exampleInputEmail" value="1">
+								</div>
+								
 								<div class="form-group">
 									<div class="custom-control custom-checkbox small">
 										<input type="checkbox" class="custom-control-input" id="customCheck">
 									</div>
 								</div>
-								<a href="index.html" class="btn btn-primary btn-user btn-block">
-									Login
-								</a>
+								<button type="submit" class="btn btn-primary">Daftar</button>
 							</form>
 							<div class="text-center">
 								<a class="small" href="forgot-password.html">Forgot Password?</a>
 							</div>
 							<div class="text-center">
-								<a class="small" href="<?= base_url('home/index'); ?>">Login an Account!</a>
+								<a class="small" href="<?= base_url('login'); ?>">Login an Account!</a>
 							</div>
 						</div>
 					</div>

@@ -35,7 +35,7 @@
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 		    <!-- Sidebar - Brand -->
-		    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('superadmin'); ?>">
+		    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('admin'); ?>">
 		        <div class="sidebar-brand-icon rotate-n-15">
 		            <i class="fas fa-briefcase"></i>
 		        </div>
@@ -45,7 +45,7 @@
 		    <hr class="sidebar-divider my-0">
 		    <!-- Nav Item - Dashboard -->
 		    <li class="nav-item">
-		        <a class="nav-link" href="<?= base_url('superadmin'); ?>">
+		        <a class="nav-link" href="<?= base_url('admin'); ?>">
 		            <i class="fas fa-fw fa-tachometer-alt"></i>
 		            <span>Dashboard</span></a>
 		    </li>
@@ -54,9 +54,9 @@
 		    <hr class="sidebar-divider">
 		    <!-- Nav Item - Tables -->
 		    <li class="nav-item">
-		        <a class="nav-link" href="<?= base_url('superadmin/cabang'); ?>">
-		            <i class="fas fa-bank"></i>
-		            <span>Cabang</span></a>
+		        <a class="nav-link" href="<?= base_url('admin/stokbarang'); ?>">
+		            <i class="fas fa-cart-plus"></i>
+		            <span>Stock Unit</span></a>
 		    </li>
 		    
 		    <li class="nav-item">
@@ -70,9 +70,9 @@
 		                    <i aria-hidden="true" role="presentation" class="fa fa-car q-icon notranslate"> </i>
 		                    Tipe Kendaraan
 		                </a>
-		                <a class="collapse-item" href="<?= base_url('showroom/transfer'); ?>">
-		                    <i aria-hidden="true" role="presentation" class="fa fa-cart-plus q-icon notranslate"> </i>
-		                    Stock Unit
+		                <a class="collapse-item" href="<?= base_url('admin/cabang'); ?>">
+		                    <i aria-hidden="true" role="presentation" class="fa fa-bank q-icon notranslate"> </i>
+		                    Cabang
 		                </a>
 		                
 		            </div>
@@ -203,7 +203,7 @@
 				                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
 				                                    Profile
 				                                </a>
-				                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+				                <a class="dropdown-item" href="<?= base_url('/login/logout'); ?>" data-toggle="modal" data-target="#logoutModal">
 				                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
 				                    Logout
 				                </a>
@@ -256,7 +256,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="<?= base_url('/login/logout'); ?>">Logout</a>
                 </div>
             </div>
         </div>

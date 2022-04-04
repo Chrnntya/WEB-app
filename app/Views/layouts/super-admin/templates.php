@@ -54,27 +54,27 @@
 		    <hr class="sidebar-divider">
 		    <!-- Nav Item - Tables -->
 		    <li class="nav-item">
-		        <a class="nav-link" href="<?= base_url('superadmin/cabang'); ?>">
-		            <i class="fas fa-bank"></i>
-		            <span>Cabang</span></a>
+		        <a class="nav-link" href="<?= base_url('stokbarang/index'); ?>">
+		            <i class="fa fa-cart-plus"></i>
+		            <span>Stok Unit</span></a>
 		    </li>
 		    
 		    <li class="nav-item">
 		        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBarang" aria-expanded="true" aria-controls="collapseBarang">
 		            <i aria-hidden="true" role="presentation" class="fa fa-database q-icon notranslate"> </i>
-		            <span>Data Barang</span>
+		            <span>Data</span>
 		        </a>
 		        <div id="collapseBarang" class="collapse" aria-labelledby="headingBarang" data-parent="#accordionSidebar">
 		            <div class="bg-white py-2 collapse-inner rounded">
-		                <a class="collapse-item" href="<?= base_url('showroom/index'); ?>">
+		                <a class="collapse-item" href="<?= base_url('tipekendaraan'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-car q-icon notranslate"> </i>
 		                    Tipe Kendaraan
 		                </a>
-		                <a class="collapse-item" href="<?= base_url('showroom/transfer'); ?>">
-		                    <i aria-hidden="true" role="presentation" class="fa fa-cart-plus q-icon notranslate"> </i>
-		                    Stok Unit
+
+						<a class="collapse-item" href="<?= base_url('datacabang'); ?>">
+		                    <i aria-hidden="true" role="presentation" class="fas fa-bank q-icon notranslate"> </i>
+		                    Cabang
 		                </a>
-		                
 		            </div>
 		        </div>
 		    </li> 
@@ -86,11 +86,11 @@
 		        </a>
 		        <div id="collapseStok" class="collapse" aria-labelledby="headingStok" data-parent="#accordionSidebar">
 		            <div class="bg-white py-2 collapse-inner rounded">
-		                <a class="collapse-item" href="<?= base_url('showroom/index'); ?>">
+		                <a class="collapse-item" href="<?= base_url('transferin'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-arrow-circle-down q-icon notranslate"> </i>
 		                    Stock In
 		                </a>
-		                <a class="collapse-item" href="<?= base_url('showroom/transfer'); ?>">
+		                <a class="collapse-item" href="<?= base_url('transferout'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-arrow-circle-up q-icon notranslate"> </i>
 		                    Stok Out
 		                </a>
@@ -199,11 +199,11 @@
 				            </a>
 				            <!-- Dropdown - User Information -->
 				            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-				                <a class="dropdown-item" href="#">
+				                <a class="dropdown-item" href="<?= base_url('profil'); ?>">
 				                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
 				                                    Profile
 				                                </a>
-				                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+				                <a class="dropdown-item" href="<?= base_url('/login/logout'); ?>" data-toggle="modal" data-target="#logoutModal">
 				                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
 				                    Logout
 				                </a>
@@ -256,7 +256,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="<?= base_url('/login/logout'); ?>">Logout</a>
                 </div>
             </div>
         </div>
@@ -275,6 +275,9 @@
 	<script src="<?= base_url('/assets/vendor/datatables/jquery.dataTables.min.js') ?>"></script>
 	<script src="<?= base_url('/assets/vendor/datatables/dataTables.bootstrap4.min.js') ?>"></script>
 	<script src="<?= base_url('/assets/js/demo/datatables-demo.js') ?>"></script>
+
+	<script src="<?= base_url('/assets/js/jquery.min.js') ?>"></script>
+
 
 </body>
 

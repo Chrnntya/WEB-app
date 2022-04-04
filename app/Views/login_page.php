@@ -34,34 +34,37 @@
 							<div class="text-center">
 								<h1 class="h4 text-gray-900 mb-4">LOGIN</h1>
 							</div>
-							<form class="user">
-								<div class="form-group">
-									<input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
-								</div>
-								<div class="form-group">
-									<input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
-								</div>
-								<div class="form-group">
-									<div class="custom-control custom-checkbox small">
-										<input type="checkbox" class="custom-control-input" id="customCheck">
+							<?php if(session()->getFlashdata('error')): ?>
+								<div class="alert alert-danger alert-dismissible show fade">
+									<div>
+										<button class="close" data-dismiss="alert">x</button>
+										<b>error !</b>
+										<?= session()->getFlashdata('error'); ?>
 									</div>
+
 								</div>
-								<p class="text-center">Demo</p>
-								<a href="<?= base_url('SuperAdmin'); ?>" class="btn btn-primary btn-user btn-block">
-									Login as Super Admin
-								</a>
-								<a href="<?= base_url('Admin'); ?>" class="btn btn-primary btn-user btn-block">
-									Login as Admin
-								</a>
-								<a href="<?= base_url('Pegawai'); ?>" class="btn btn-primary btn-user btn-block">
-									Login as Pegawai
-								</a>
+							<?php endif; ?>
+							<form method="POST" action="<?= base_url('login/process'); ?>">
+							<?= csrf_field(); ?>
+								<div class="form-group">
+									<input type="text" name="username" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Username">
+								</div>
+								<div class="form-group">
+									<input type="password" name="pass" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+								</div>
+								<div class="text-center">
+								<button type="submit" class="btn btn-primary">Login</button>
+									<!-- <a class="small" href="forgot-password.html">Forgot Password?</a> -->
+								</div>
+								
+								
+								
 							</form>
 							<div class="text-center">
 								<!-- <a class="small" href="forgot-password.html">Forgot Password?</a> -->
 							</div>
 							<div class="text-center">
-								<!-- <a class="small" href="<?= base_url('home/daftar'); ?>">Create an Account!</a> -->
+								<!-- <a class="small" href="<?= base_url('register'); ?>">Create an Account!</a> -->
 							</div>
 						</div>
 					</div>

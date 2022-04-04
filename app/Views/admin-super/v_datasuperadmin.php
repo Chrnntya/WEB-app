@@ -8,7 +8,7 @@
             <!-- Main Content -->
             <div id="content">
                 <!-- /.container-fluid -->
-                <div class="col-xl-9 mb-4">
+                <div class="col-xl-12 mb-4">
                     <div class="card border-left-primary shadow h-100 py-2">
                         <div class="card-body">
                             <div class="row no-gutters align-items-center">
@@ -36,19 +36,30 @@
                                             <thead style="text-align: center; vertical-align: middle;">
                                                 <tr>
                                                     <th><i>Profil</i></th>
+                                                    <th><i>Username</i></th>
                                                     <th><i>Nama</i></th>
-                                                    <th><i>Jabatan</i></th>
+                                                    <th><i>User ID</i></th>
                                                     <th><i>Cabang</i></th>
+                                                    <th><i>Jabatan</i></th>
+                                                    <th><i>Created By</i></th>
                                                     <th colspan="2" rowspan="2" class="text-center"><i>Options</i></th>
 
                                                 </tr>
                                             </thead>
                                             <tbody class="user" style="text-align: center; color: black; vertical-align: middle;">
+                                            <?php
+                                            $no=0;
+                                            foreach ($dataSA as $data) {
+                                                $no++;
+                                            ?>
                                                 <tr>
                                                     <td class="align-middle"><img style="width: 100px; vertical-align: middle;" class="img-profile rounded-circle" src="<?= base_url('assets/img/undraw_profile.svg') ?>"></td>
-                                                    <td class="align-middle">Jhon White</td>
-                                                    <td class="align-middle">Chief Executive Officer</td>
-                                                    <td class="align-middle">Jakarta Barat</td>
+                                                    <td class="align-middle"><?= $data['username']; ?></td>
+                                                    <td class="align-middle"><?= $data['namalengkap']; ?></td>
+                                                    <td class="align-middle"><?= $data['userid']; ?></td>
+                                                    <td class="align-middle"><?= $data['cabang']; ?></td>
+                                                    <td class="align-middle"><?= $data['akses']; ?></td>
+                                                    <td class="align-middle"><?= $data['createdby']; ?></td>
                                                     <td class="align-middle" style="color: blue;">
                                                         <a href="#editdata">
                                                             <span >
@@ -66,6 +77,7 @@
                                                     
 
                                                 </tr>
+                                                <?php } ?>
                                                 
                                             </tbody>
                                         </table>

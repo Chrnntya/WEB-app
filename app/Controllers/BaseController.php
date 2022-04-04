@@ -24,7 +24,7 @@ class BaseController extends Controller
     /**
      * Instance of the main Request object.
      *
-     * @var CLIRequest|IncomingRequest
+     * @var IncomingRequest
      */
     protected $request;
 
@@ -35,7 +35,7 @@ class BaseController extends Controller
      *
      * @var array
      */
-    protected $helpers = [];
+    protected $helpers = ['form'];
 
     /**
      * Constructor.

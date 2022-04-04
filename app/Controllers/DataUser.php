@@ -2,11 +2,15 @@
 
 namespace App\Controllers;
 
+use App\Models\ModelUser;
+
 class DataUser extends BaseController
 {
     public function index()
     {
-        return view('admin-super/v_datasuperadmin');
+        $SA = new ModelUser();
+        $dataSA = $SA->getUser();
+        return view('admin-super/v_datasuperadmin', compact('dataSA'));
     }
     public function dataadmin()
     {

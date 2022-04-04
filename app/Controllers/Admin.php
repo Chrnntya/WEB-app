@@ -2,8 +2,14 @@
 
 namespace App\Controllers;
 
+use App\Models\ModelStokBarang;
+
 class Admin extends BaseController
 {
+    public function __construct()
+    {
+        $this->stokbarang = new ModelStokBarang();
+    }
     public function index()
     {
         return view('admin/index');
@@ -20,6 +26,9 @@ class Admin extends BaseController
     }
     public function stokbarang()
     {
-        return view('admin/stokbarang');
+        $data = [
+            'tampildata' => $this->stokbarang->findAll()
+        ];
+        return view('admin/showroom/viewstokbarang',$data);
     }
 }

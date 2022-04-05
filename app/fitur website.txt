@@ -1,0 +1,42 @@
+*Login multi user
+-SA
+Bisa akses semua
+Bisa reset password default
+
+-Admin
+Tidak bisa reset password
+Bisa akses semua tabel cabang dan liat semua stok
+Bisa transfer stok 
+Bisa konfirmasi pameran 
+Bisa publish unpublish stok
+
+-User
+Hanya bisa Terima stok in dari admin
+-Bisa rubah jenis stok ready
+-Bisa kirim pameran
+-Bisa isi penjualan
+
+*Cabang
+-input kode cabang dan nama cabang
+- tampilin di table
+
+*Stok 
+Bisa input stok (yg bisa input Sa dan admin saja) 
+-tampilin stok yg sudah dipublish admin dan Sa
+-bisa transfer ke cabang dan ada printout surat jalan
+
+*Transfer
+Hanya admin dan Sa yg bisa transfer stok dan ada surat jalannya
+
+
+*Publish/unPublish
+Hanya sa dan admin yg bisa publish unpublish
+Yg sudah ter publish bisa diekspor ke excel
+
+*History stok
+Tampilin tabel stok yg sudah terjual dan yg belum
+Bisa di filter berdasarkan norangka lalu akan muncul riwayatnya 
+
+Rekapitulasi stok unit
+-bisa di sort berdasarkan stok yg paling banyak
+-berdasarkan penjualan tertinggi

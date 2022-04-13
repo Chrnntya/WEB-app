@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *Login multi user
 -SA
 Bisa akses semua
@@ -43,3 +44,52 @@ Rekapitulasi stok unit
 
 $2y$10$sM7OPU5uKCmyY0RVw8s9i..ikG0xjbAwRYoiWc9LHIynuzpRgJJnC = adminsuper
 $2y$10$ZH5pRdI/wf8HEJouv1/iCea/GLQJqzdnN8ZGd4UrzowePK2LYL3Hq = superadmin
+=======
+Updates
+Ada edit dibagian Filter/UsersAuth
+*Login multi user
+-SA
+Bisa akses semua
+Bisa reset password default
+
+-Admin
+Tidak bisa reset password
+Bisa akses semua tabel cabang dan liat semua stok
+Bisa transfer stok 
+Bisa konfirmasi pameran 
+Bisa publish unpublish stok
+
+-User
+Hanya bisa Terima stok in dari admin
+-Bisa rubah jenis stok ready
+-Bisa kirim pameran
+-Bisa isi penjualan
+
+*Cabang
+-input kode cabang dan nama cabang
+- tampilin di table
+
+*Stok 
+Bisa input stok (yg bisa input Sa dan admin saja) 
+-tampilin stok yg sudah dipublish admin dan Sa
+-bisa transfer ke cabang dan ada printout surat jalan
+
+*Transfer
+Hanya admin dan Sa yg bisa transfer stok dan ada surat jalannya
+
+
+*Publish/unPublish
+Hanya sa dan admin yg bisa publish unpublish
+Yg sudah ter publish bisa diekspor ke excel
+
+*History stok
+Tampilin tabel stok yg sudah terjual dan yg belum
+Bisa di filter berdasarkan norangka lalu akan muncul riwayatnya 
+
+Rekapitulasi stok unit
+-bisa di sort berdasarkan stok yg paling banyak
+-berdasarkan penjualan tertinggi
+
+$2y$10$sM7OPU5uKCmyY0RVw8s9i..ikG0xjbAwRYoiWc9LHIynuzpRgJJnC = adminsuper
+$2y$10$ZH5pRdI/wf8HEJouv1/iCea/GLQJqzdnN8ZGd4UrzowePK2LYL3Hq = superadmin
+>>>>>>> 737767fa902ca836b8ddea7ef1189958697d4a30

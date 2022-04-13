@@ -1,0 +1,257 @@
+CRITICAL - 2022-03-24 03:41:38 --> syntax error, unexpected token "}", expecting ";"
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\Freelance\\we...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 03:46:48 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-24 03:47:13 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-24 03:47:45 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-24 05:15:31 --> Invalid file: cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cabang.php')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('cabang', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('cabang')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 05:16:00 --> Invalid file: cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cabang.php')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('cabang', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('cabang')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 05:16:14 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 05:16:23 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 05:16:57 --> Invalid file: admin-user/index.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/inde...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/inde...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/inde...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 05:17:29 --> Invalid file: admin-user/index.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/inde...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/inde...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/inde...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 05:18:27 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 10:47:36 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 10:56:17 --> Invalid file: /layouts/components/sidebar.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/layouts/compon...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('/layouts/compon...', NULL, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Views\admin-super\index.php(25): CodeIgniter\View\View->include('/layouts/compon...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('G:\\Freelance\\we...')
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/ind...', Array, true)
+#6 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(9): view('admin-super/ind...')
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#8 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#9 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#12 {main}
+CRITICAL - 2022-03-24 11:02:01 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:02:15 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:03:41 --> Invalid file: /super-admin/components/sidebar.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/super-admin/co...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('/super-admin/co...', NULL, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Views\admin-super\index.php(25): CodeIgniter\View\View->include('/super-admin/co...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('G:\\Freelance\\we...')
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/ind...', Array, true)
+#6 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(9): view('admin-super/ind...')
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#8 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#9 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#12 {main}
+CRITICAL - 2022-03-24 11:05:47 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:06:02 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:06:38 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:06:39 --> Invalid file: index.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(9): view('index')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:06:47 --> Invalid file: index.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(9): view('index')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:06:49 --> Invalid file: index.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(9): view('index')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:07:05 --> Invalid file: index.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(9): view('index')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:07:12 --> Invalid file: index.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(9): view('index')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:07:57 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:10:04 --> Invalid file: admin-user/cabang.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-user/caba...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-user/caba...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\SuperAdmin.php(13): view('admin-user/caba...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}
+CRITICAL - 2022-03-24 11:51:42 --> Invalid file: admin-super/v_datapegawai.php
+#0 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-super/v_d...')
+#1 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#2 G:\Freelance\web_ci4\WEB-app\app\Controllers\DataUser.php(18): view('admin-super/v_d...')
+#3 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#4 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#5 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\Freelance\web_ci4\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\Freelance\web_ci4\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('G:\\Freelance\\we...')
+#8 {main}

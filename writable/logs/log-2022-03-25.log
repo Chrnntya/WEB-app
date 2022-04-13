@@ -1,0 +1,113 @@
+CRITICAL - 2022-03-25 09:47:21 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\WEB-app\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-03-25 09:50:38 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\WEB-app\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-03-25 05:46:32 --> Invalid file: admin-super/v_datapegawai.php
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-super/v_d...')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#2 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(18): view('admin-super/v_d...')
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-25 06:59:38 --> Invalid file: admin-super/v_datapegawai.php
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-super/v_d...')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#2 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(18): view('admin-super/v_d...')
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-25 07:13:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-25 20:50:56 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-25 21:36:41 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-25 21:37:47 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-25 21:39:02 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-25 21:40:55 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-25 21:41:17 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-25 21:41:19 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-25 21:41:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-25 21:42:05 --> Invalid file: showroom/index.php
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('showroom/index....')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('showroom/index', Array, true)
+#2 C:\xampp\htdocs\WEB-app\app\Controllers\ShowRoom.php(9): view('showroom/index')
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ShowRoom->index()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ShowRoom))
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-25 23:04:11 --> Too few arguments to function CodeIgniter\View\View::renderSection(), 0 passed in C:\xampp\htdocs\WEB-app\app\Views\admin-super\index.php on line 1 and exactly 1 expected
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\index.php(1): CodeIgniter\View\View->renderSection()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/ind...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\SuperAdmin.php(9): view('admin-super/ind...')
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-25 23:04:17 --> Too few arguments to function CodeIgniter\View\View::renderSection(), 0 passed in C:\xampp\htdocs\WEB-app\app\Views\admin-super\index.php on line 1 and exactly 1 expected
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\index.php(1): CodeIgniter\View\View->renderSection()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/ind...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\SuperAdmin.php(9): view('admin-super/ind...')
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-25 23:04:56 --> Too few arguments to function CodeIgniter\View\View::renderSection(), 0 passed in C:\xampp\htdocs\WEB-app\app\Views\admin-super\index.php on line 1 and exactly 1 expected
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\index.php(1): CodeIgniter\View\View->renderSection()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/ind...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\SuperAdmin.php(9): view('admin-super/ind...')
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-25 23:04:57 --> Too few arguments to function CodeIgniter\View\View::renderSection(), 0 passed in C:\xampp\htdocs\WEB-app\app\Views\admin-super\index.php on line 1 and exactly 1 expected
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\index.php(1): CodeIgniter\View\View->renderSection()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/ind...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\SuperAdmin.php(9): view('admin-super/ind...')
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

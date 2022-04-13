@@ -6,6 +6,11 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        return view('login_page');
     }
+    public function daftar()
+    {
+        return view('daftar_page');
+    }
+    
 }

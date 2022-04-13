@@ -1,0 +1,680 @@
+CRITICAL - 2022-04-12 12:41:44 --> Too few arguments to function App\Controllers\StokBarang::formedit(), 0 passed in C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokBarang->formedit()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokBarang))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 12:42:08 --> Too few arguments to function App\Controllers\Profil::formedit(), 0 passed in C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->formedit()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 12:42:33 --> Too few arguments to function App\Controllers\Profil::formedit(), 0 passed in C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->formedit()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 13:01:16 --> Undefined variable $tampildata
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\profil\formtambah.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(28): view('admin-super/pro...')
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formtambah()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 13:14:19 --> Undefined property: App\Controllers\DataUser::$datauser
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formtambah()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-12 13:28:43 --> Unmatched '}'
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('datauser/formta...')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('datauser/formta...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-12 13:32:29 --> Undefined variable $datauser
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->simpandata()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-12 13:33:03 --> Undefined variable $datauser
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->simpandata()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-12 13:33:36 --> Undefined variable $datauser
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->simpandata()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-12 13:43:42 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#3 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(39): view('admin-super/pro...', Array)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formtambah()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-12 13:45:07 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#3 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(39): view('admin-super/pro...', Array)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formtambah()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-12 13:45:38 --> Undefined array key "username"
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\profil\formtambah.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(39): view('admin-super/pro...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formtambah()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-12 13:49:01 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2022-04-12 13:49:01 --> Duplicate entry '' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->simpandata()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#10 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-04-12 13:51:00 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2022-04-12 13:51:00 --> Duplicate entry '' for key 'PRIMARY'
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->simpandata()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#10 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-04-12 13:54:13 --> Array to string conversion
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->simpandata()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-12 13:55:10 --> Array to string conversion
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->simpandata()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-12 13:55:35 --> Array to string conversion
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->simpandata()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-12 14:05:04 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#3 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(33): view('admin-super/v_d...', Array)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-12 14:06:02 --> Undefined variable $dataPGW
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\v_datapegawai.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(33): view('admin-super/v_d...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 14:07:33 --> Undefined variable $dataPGW
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\v_datapegawai.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(35): view('admin-super/v_d...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 14:07:46 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#3 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(35): view('admin-super/v_d...', Array)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-12 14:08:05 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#3 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(35): view('admin-super/v_d...', Array)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-12 14:08:05 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#3 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(35): view('admin-super/v_d...', Array)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-12 14:09:02 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#3 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(35): view('admin-super/v_d...', Array)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-12 14:09:09 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#3 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(35): view('admin-super/v_d...', Array)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-12 14:11:15 --> Undefined variable $tampil_pegawai
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\v_datapegawai.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(33): view('admin-super/v_d...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 14:11:40 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#3 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(33): view('admin-super/v_d...', Array)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->datapegawai()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-12 22:25:51 --> Too few arguments to function App\Controllers\Profil::formedit(), 0 passed in C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->formedit()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:26:35 --> Too few arguments to function App\Controllers\Profil::formedit(), 0 passed in C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->formedit()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:26:43 --> Too few arguments to function App\Controllers\DataUser::hapus_admin(), 0 passed in C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->hapus_admin()
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:34:29 --> Attempt to read property "userid" on array
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\v_datasuperadmin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(20): view('admin-super/v_d...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 22:35:03 --> Undefined variable $tampil_pegawai
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\v_datasuperadmin.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/v_d...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(20): view('admin-super/v_d...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 22:41:22 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('34041020220412')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:41:47 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1113')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:42:50 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1113')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:43:14 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1113')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:43:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1111')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:43:49 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1111')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:44:25 --> Invalid file: admin-super/datauser/formedit.php
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-super/dat...')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/dat...', Array, true)
+#2 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(145): view('admin-super/dat...', Array)
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1111')
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-12 22:44:41 --> Invalid file: admin-super/datauser/formedit.php
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-super/dat...')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/dat...', Array, true)
+#2 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(144): view('admin-super/dat...', Array)
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1111')
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-12 22:46:34 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1111')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:46:39 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('34041020220412')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:47:21 --> Invalid file: admin-super/datauser/v_datasuperadmin.php
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-super/dat...')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/dat...', Array, true)
+#2 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(20): view('admin-super/dat...', Array)
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->index()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-12 22:47:49 --> Invalid file: admin-super/datauser/v_datasuperadmin.php
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-super/dat...')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/dat...', Array, true)
+#2 C:\xampp\htdocs\WEB-app\app\Controllers\DataUser.php(20): view('admin-super/dat...', Array)
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->index()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-12 22:50:43 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1111')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:50:59 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1111')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 22:54:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataUser->formedit('1111')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataUser))
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-12 23:06:50 --> Undefined variable $tampil_pegawai
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\profil\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Profil.php(19): view('admin-super/pro...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:10:48 --> Undefined variable $tampildata
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\profil\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Profil.php(20): view('admin-super/pro...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:12:42 --> Undefined variable $id
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\profil\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Profil.php(20): view('admin-super/pro...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:12:44 --> Undefined variable $id
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\profil\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Profil.php(20): view('admin-super/pro...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:15:21 --> Undefined variable $id
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\profil\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Profil.php(20): view('admin-super/pro...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:15:34 --> Undefined variable $id
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\profil\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Profil.php(20): view('admin-super/pro...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:17:20 --> Undefined property: stdClass::$dreated_at
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\profil\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/pro...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Profil.php(20): view('admin-super/pro...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Profil->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:22:25 --> Attempt to read property "useid" on array
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(13): view('pegawai/index', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:22:31 --> Attempt to read property "userid" on array
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(13): view('pegawai/index', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:23:05 --> Attempt to read property "userid" on array
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(13): view('pegawai/index', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:23:05 --> Attempt to read property "userid" on array
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(13): view('pegawai/index', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:23:18 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(13): view('pegawai/index', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:24:06 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(13): view('pegawai/index', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:24:58 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(13): view('pegawai/index', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:25:19 --> Array to string conversion
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(13): view('pegawai/index', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:30:13 --> Invalid file: pegawai/profil.php
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawai/profil....')
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/profil', Array, true)
+#2 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(31): view('pegawai/profil')
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->profilPegawai()
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-12 23:31:04 --> Undefined variable $tampildata
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\profil\index.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/profil/...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(31): view('pegawai/profil/...')
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->profilPegawai()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:31:40 --> Attempt to read property "userid" on array
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\profil\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/profil/...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(33): view('pegawai/profil/...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->profilPegawai()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:33:09 --> Undefined array key "usereid"
+#0 C:\xampp\htdocs\WEB-app\app\Views\pegawai\profil\index.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/profil/...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(33): view('pegawai/profil/...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->profilPegawai()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-12 23:58:43 --> Undefined property: App\Controllers\Pegawai::$datauser
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->formedit('12040120220412')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-12 23:59:25 --> Undefined property: App\Controllers\Pegawai::$datauser
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\Pegawai.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pegawai->formedit('12040120220412')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

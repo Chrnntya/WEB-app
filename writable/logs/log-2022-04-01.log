@@ -1,0 +1,87 @@
+ERROR - 2022-04-01 10:36:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-01 10:36:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\web2\app\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->process()
+#6 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-01 10:38:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-04-01 10:38:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\web2\app\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->process()
+#6 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-01 10:56:49 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/cab...', Array, true)
+#3 C:\xampp\htdocs\web2\app\Controllers\SuperAdmin.php(17): view('admin-super/cab...', Array)
+#4 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\SuperAdmin->cabang()
+#5 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuperAdmin))
+#6 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\web2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-01 10:57:26 --> Undefined variable $dataCabang
+#0 C:\xampp\htdocs\web2\app\Views\admin-super\cabang.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/cab...', Array, true)
+#4 C:\xampp\htdocs\web2\app\Controllers\Cabang.php(12): view('admin-super/cab...', Array)
+#5 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cabang->index()
+#6 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cabang))
+#7 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-01 10:59:01 --> Undefined property: stdClass::$created_at
+#0 C:\xampp\htdocs\web2\app\Views\admin-super\cabang.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/cab...', Array, true)
+#4 C:\xampp\htdocs\web2\app\Controllers\Cabang.php(12): view('admin-super/cab...', Array)
+#5 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cabang->index()
+#6 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cabang))
+#7 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-01 11:19:08 --> Undefined property: stdClass::$created_at
+#0 C:\xampp\htdocs\web2\app\Views\admin-super\cabang.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/cab...', Array, true)
+#4 C:\xampp\htdocs\web2\app\Controllers\Cabang.php(12): view('admin-super/cab...', Array)
+#5 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cabang->index()
+#6 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cabang))
+#7 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-01 11:21:01 --> Undefined property: stdClass::$created_at
+#0 C:\xampp\htdocs\web2\app\Views\admin-super\cabang.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/cab...', Array, true)
+#4 C:\xampp\htdocs\web2\app\Controllers\Cabang.php(12): view('admin-super/cab...', Array)
+#5 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cabang->index()
+#6 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cabang))
+#7 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

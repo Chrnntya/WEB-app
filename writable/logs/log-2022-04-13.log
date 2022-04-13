@@ -1288,3 +1288,15 @@ CRITICAL - 2022-04-13 11:51:11 --> Invalid file: admin-super/showroom/index.php
 #6 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+CRITICAL - 2022-04-13 12:05:24 --> syntax error, unexpected token "===", expecting end of file
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-13 12:05:50 --> syntax error, unexpected token "===", expecting end of file
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}

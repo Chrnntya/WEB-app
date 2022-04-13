@@ -17,7 +17,7 @@
                             <div class="card-header py-3">
                                 <?= form_button('','<i class="fa fa-arrow-left"></i> Kembali', [
                                     'class' => 'btn btn-md btn-warning m-2',
-                                    'onclick' => "location.href=('".base_url('profil')."')"
+                                    'onclick' => "location.href=('".base_url('pegawai/profilpegawai')."')"
                                 ]) ?>
                             </div>
                             <div class="card-body col-md-6 justify-content-center">

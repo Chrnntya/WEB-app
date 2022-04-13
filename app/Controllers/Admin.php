@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 namespace App\Controllers;
@@ -337,39 +336,3 @@ class Admin extends BaseController
         return view('admin/user/v_datapegawai',$dataProduct);
     }
 }
-=======
-<?php
-
-namespace App\Controllers;
-
-use App\Models\ModelStokBarang;
-
-class Admin extends BaseController
-{
-    public function __construct()
-    {
-        $this->stokbarang = new ModelStokBarang();
-    }
-    public function index()
-    {
-        return view('admin/index');
-    }
-    public function cabang()
-    {
-        return view('admin/cabang');
-    }
-    public function databarang()
-    {
-        //return view('layouts/super-admin/header');
-        return view('admin/databarang');
-       // return view('layouts/super-admin/footer');
-    }
-    public function stokbarang()
-    {
-        $data = [
-            'tampildata' => $this->stokbarang->findAll()
-        ];
-        return view('admin/showroom/viewstokbarang',$data);
-    }
-}
->>>>>>> 737767fa902ca836b8ddea7ef1189958697d4a30

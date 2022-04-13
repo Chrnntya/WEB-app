@@ -14,16 +14,7 @@
                         <h1 class="h3 mb-2 text-gray-800">Stok Unit</h1>
                         <!-- DataTales Example -->
                         <div class="card shadow mb-4">
-                            <div class="card-header py-3 d-flex inline">
-                                <?= form_button('','<i class="fa fa-cart-plus"></i> Tambah Stok Unit', [
-                                    'class' => 'btn btn-md btn-primary m-2',
-                                    'onclick' => "location.href=('".base_url('stokbarang/formtambah')."')"
-                                ]) ?>
-                                <?= form_button('','<i class="fa fa-car"></i> Tambah Data Kendaraan', [
-                                    'class' => 'btn btn-md btn-primary m-2 inline',
-                                    'onclick' => "location.href=('".base_url('datakendaraan/formtambah')."')"
-                                ]) ?>
-                            </div>
+
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -38,7 +29,6 @@
                                                 <th>Keterangan</th>
                                                 <th>Publish</th>
                                                 <th>Terjual</th>
-                                                <th>Aksi</th>
                                             </tr>
                                         </thead>
                                         <tfoot class="text-center">

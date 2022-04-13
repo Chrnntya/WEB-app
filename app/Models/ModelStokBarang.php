@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 namespace App\Models;
@@ -22,21 +21,4 @@ class ModelStokBarang extends Model
     }
 
     
-=======
-<?php
-
-namespace App\Models;
-
-use CodeIgniter\Model;
-
-class ModelStokBarang extends Model
-{
-    protected $table = 'tbldatastok';
-    protected $primaryKey = 'kodestok';
-    protected $allowedFields = [
-        'kodestok', 'jenisstok','statusstok','lokasi','keterangan','ispublish','createdby','createddate','terjual'
-    ];
-
-    
->>>>>>> 737767fa902ca836b8ddea7ef1189958697d4a30
 }

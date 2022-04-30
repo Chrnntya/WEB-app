@@ -1,0 +1,118 @@
+CRITICAL - 2022-04-27 06:23:53 --> Cannot declare class App\Controllers\TransferIn, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-27 06:24:49 --> Undefined array key "nobukti"
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\stok-in\viewstokin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/sto...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\StokIn.php(20): view('admin-super/sto...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokIn->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokIn))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-27 06:30:40 --> Undefined property: App\Controllers\StokOut::$stokIn
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\StokOut.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokOut->index()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokOut))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 06:31:25 --> Undefined array key "kodebuku"
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\stok-out\viewstokout.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/sto...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\StokOut.php(20): view('admin-super/sto...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokOut->index()
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokOut))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-27 14:55:27 --> Undefined property: App\Controllers\StokIn::$tipebarang
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\StokIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokIn->formtambah()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokIn))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 14:55:41 --> Undefined property: App\Controllers\StokIn::$tipebarang
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\StokIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokIn->formtambah()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokIn))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 14:56:04 --> Undefined property: App\Controllers\StokIn::$tipebarang
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\StokIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokIn->formtambah()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokIn))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 14:56:13 --> Undefined property: App\Controllers\StokIn::$tipebarang
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\StokIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokIn->formtambah()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokIn))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 14:56:26 --> Undefined property: App\Controllers\StokIn::$tipebarang
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\StokIn.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokIn->formtambah()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokIn))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 14:57:07 --> Undefined property: App\Controllers\StokIn::$tipebarang
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\StokIn.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokIn->formtambah()
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokIn))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-27 15:17:45 --> Unknown column 'tbldatapembelian.id' in 'where clause'
+CRITICAL - 2022-04-27 15:17:45 --> Unknown column 'tbldatapembelian.id' in 'where clause'
+#0 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'STK008')
+#6 C:\xampp\htdocs\WEB-app\app\Controllers\StokIn.php(80): CodeIgniter\BaseModel->find('STK008')
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokIn->hapus('STK008')
+#8 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokIn))
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-04-27 15:20:57 --> Undefined property: App\Controllers\StokIn::$cabang
+#0 C:\xampp\htdocs\WEB-app\app\Controllers\StokIn.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokIn->formedit('STK009')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokIn))
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-27 15:21:10 --> Undefined variable $kodecabang
+#0 C:\xampp\htdocs\WEB-app\app\Views\admin-super\stok-in\formedit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin-super/sto...', Array, true)
+#4 C:\xampp\htdocs\WEB-app\app\Controllers\StokIn.php(87): view('admin-super/sto...', Array)
+#5 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\StokIn->formedit('STK009')
+#6 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StokIn))
+#7 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\WEB-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\WEB-app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

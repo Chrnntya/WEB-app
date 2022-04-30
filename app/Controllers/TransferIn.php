@@ -14,7 +14,7 @@ class TransferIn extends BaseController
     public function index()
     {
         $data = [
-            'tampilstok' => $this->transferIn->tampildata()
+            'tampilstok' => $this->transferIn->tampildata_in()
         ];
         return view('admin-super/transferin/viewstokin',$data);
     }

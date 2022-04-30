@@ -1,0 +1,40 @@
+tbldatastok:
+	kodestok
+	jenisstok
+	statusstok
+	lokasi
+	keterangan
+	ispublish
+	terjual
+	createdby
+	createddate
+
+tbldatapembelian:
+	kodestok
+	kodebuku
+	nobuku
+	nodo
+	tgldo
+	tgldatang
+	createdby
+	createddate
+
+tbldatakendaraan:
+	kodetipe
+	kodestok
+	norangka
+	nomesin
+	tahunkendaraan
+	warna
+	createdby
+	createddate
+	kodetipe
+
+tbldatapenjualan:
+kodestok
+nospk
+namasales
+namakonsumen
+tgldo
+createdby
+createddate

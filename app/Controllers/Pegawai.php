@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\ModelProfil;
 use App\Models\ModelStokBarang;
+use App\Models\ModelStokOut;
 use App\Models\ModelTransfer;
 use App\Models\ModelUser;
 
@@ -14,6 +15,7 @@ class Pegawai extends BaseController
         $this->datauser = new ModelProfil();
         $this->stokbarang = new ModelStokBarang();
         $this->transferIn = new ModelTransfer();
+        $this->stokOut = new ModelStokOut();
     }
     public function index()
     {
@@ -23,9 +25,10 @@ class Pegawai extends BaseController
     }
     public function stokin()
     {
+        
         $data = [
             
-            'tampilstok' => $this->transferIn->tampildata()
+            'tampilstok' => $this->transferIn->tampildata_in()
         ];
         return view('pegawai/transferin/viewstokin',$data);
     }
@@ -147,6 +150,65 @@ class Pegawai extends BaseController
         ]);
         return redirect()->to('pegawai/stokin');
 
+    }
+
+    //stok out
+    public function stokout()
+    {
+        $data = [
+            
+            'tampilstok' => $this->stokOut->tampildata()
+        ];
+        return view('pegawai/stok-out/viewstokout',$data);
+    }
+    public function formtambah_out()
+    {
+        $data = [
+            'kodestok' => $this->stokbarang->findAll()
+        ];
+        
+        return view('pegawai/stok-out/formtambah',$data);
+    }
+    public function simpandata_out()
+    {
+        $kodestok = $this->request->getVar('kodestok');
+        $nospk = $this->request->getVar('nospk');
+        $namasales = $this->request->getVar('namasales');
+        $namakonsumen = $this->request->getVar('namakonsumen');
+        $tgldo = $this->request->getVar('tgldo');
+        $validation = \Config\Services::validation();
+        $valid = $this->validate([
+            'kodestok' => [
+                'rules' => 'required',
+                'label' => 'nama kategori',
+                'errors' => [
+                    'required' => '{field} Tidak boleh kosong'
+                ]
+            ]
+            ]);
+
+            if (!$valid){
+                $pesan = [
+                    'errorKodeStok' => $validation->getError()
+                ];
+
+                session()->setFlashdata($pesan);
+                return redirect()->to('pegawai/formtambah_out');
+            } else{
+                $tgl = date("Y-m-d h:m:s");
+                $user = session()->get('username');
+                $this->stokOut->insert([
+                    'kodestok' => $kodestok,
+                    'nospk' => $nospk,
+                    'namasales' => $namasales,
+                    'namakonsumen' => $namakonsumen,
+                    'tgldo' => $tgldo,
+                    'createdby' => $user,
+                    'createddate' => $tgl
+                ]);
+                
+                return redirect()->to('pegawai/stokout');
+            }
     }
 
 }

@@ -2,12 +2,11 @@
 
 namespace App\Controllers;
 
+use App\Models\ModelAdmin;
 use App\Models\ModelCabang;
 use App\Models\ModelLogin;
 use App\Models\ModelProfil;
 use App\Models\ModelStokBarang;
-use App\Models\ModelTransfer;
-use App\Models\ModelUser;
 
 class Admin extends BaseController
 {
@@ -16,7 +15,7 @@ class Admin extends BaseController
         $this->stokbarang = new ModelStokBarang();
         $this->datauser = new ModelProfil();
         $this->datacabang = new ModelCabang();
-        $this->transferIn = new ModelTransfer();
+        $this->datatransfer = new ModelAdmin();
 
     }
     public function index()
@@ -215,14 +214,14 @@ class Admin extends BaseController
     public function stokin()
     {
         $data = [
-            'tampilstok' => $this->transferIn->tampildata_in()
+            'tampilstok' => $this->datatransfer->tampildata_in()
         ];
         return view('admin/transferin/viewstokin',$data);
     }
     public function stokout()
     {
         $data = [
-            'tampilstok' => $this->transferIn->tampildata_out()
+            'tampilstok' => $this->datatransfer->tampildata_out()
         ];
         return view('admin/transferout/viewtransferout',$data);
     }
@@ -233,7 +232,7 @@ class Admin extends BaseController
         $statustransfer = $this->request->getVar('statustransfer');
         $diterimaoleh = $this->request->getVar('diterimaoleh');
         $tglterima = date('Y-m-d');
-        $this->transferIn->update($nobukti,[
+        $this->datatransfer->update($nobukti,[
             'statustransfer' => $statustransfer,
             'diterimaoleh' => $diterimaoleh,
             'tglterima' => $tglterima
@@ -282,7 +281,7 @@ class Admin extends BaseController
                 $user = session()->get('username');
                 $no = "TRF";
                 $status = "DRAFT";
-                $this->transferIn->insert([
+                $this->datatransfer->insert([
                     'kodestok' => $kodestok,
                     'statustransfer' => $status,
                     'nobukti' => $no.$nobukti,

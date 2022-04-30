@@ -82,13 +82,7 @@
                                 
                                 
                                 <div class="form-group">
-                                    <label for="terjual">Apakah terjual?</label>
-                                    <?= form_input('terjual','',[
-                                        'class' => 'form-control',
-                                        'id' => 'terjual',
-                                        'placeholder' => 'Isikan 1 atau 0'
-                                    ]);
-                                    ?>
+                                    <input type="hidden" name="terjual" value="0">
                                 </div>
                                 <div class="form-group">
                                     <?= form_submit('','Simpan',[

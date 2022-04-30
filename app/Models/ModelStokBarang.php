@@ -12,6 +12,7 @@ class ModelStokBarang extends Model
         'kodestok', 'jenisstok','statusstok','lokasi','keterangan','ispublish','createdby','createddate','terjual'
     ];
 
+
     public function CreateCode()
     {
         $data = $this->table('tbldatastok')

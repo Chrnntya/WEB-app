@@ -19,10 +19,6 @@
                                     'class' => 'btn btn-md btn-primary m-2',
                                     'onclick' => "location.href=('".base_url('stokbarang/formtambah')."')"
                                 ]) ?>
-                                <?= form_button('','<i class="fa fa-car"></i> Tambah Data Kendaraan', [
-                                    'class' => 'btn btn-md btn-primary m-2 inline',
-                                    'onclick' => "location.href=('".base_url('datakendaraan/formtambah')."')"
-                                ]) ?>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
@@ -65,9 +61,25 @@
                                                 <td><?= $row['jenisstok']; ?></td>
                                                 <td><?= $row['statusstok']; ?></td>
                                                 <td><?= $row['lokasi']; ?></td>
-                                                <td><?= $row['ispublish']; ?></td>
+                                                <td>
+                                                    <?php
+                                                    if ($row['ispublish']== 1 ) {
+                                                        echo "Publish";
+                                                    }else{
+                                                        echo "Tidak Publish";
+                                                    }
+                                                    ?>
+                                                </td>
                                                 <td><?= $row['createdby']; ?></td>
-                                                <td><?= $row['terjual']; ?></td>
+                                                <td>
+                                                    <?php 
+                                                    if ($row['terjual']==1) {
+                                                        echo "Terjual";
+                                                    }else{
+                                                        echo "Belum Terjual";
+                                                    }
+                                                    ?>
+                                                </td>
                                                 <td class="text-center">
                                                     <button class="btn btn-sm btn-warning"  title="Edit data" onclick="edit('<?= $row['kodestok'] ?>')">Edit</button>
                                                     <button class="btn btn-sm btn-danger"  title="Hapus data" onclick="hapus('<?= $row['kodestok'] ?>')">Hapus</button>

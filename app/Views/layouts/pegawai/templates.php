@@ -54,7 +54,7 @@
 		    <li class="nav-item">
 		        <a class="nav-link" href="<?= base_url('pegawai/stokbarang'); ?>">
 		            <i class="fa fa-cart-plus"></i>
-		            <span>Stok Unit</span></a>
+		            <span>Stok Data</span></a>
 		    </li>
 
 		    <!-- Nav Item - Pages Collapse Menu -->
@@ -62,6 +62,14 @@
 		        <a class="nav-link collapsed" href="<?= base_url('pegawai/stokin'); ?>" aria-expanded="true" aria-controls="collapseStok">
 		            <i aria-hidden="true" role="presentation" class="fa fa-random q-icon notranslate"> </i>
 		            <span>Stock in</span>
+		        </a>
+		        
+		    </li> 
+			<!-- Nav Item - Pages Collapse Menu -->
+		    <li class="nav-item">
+		        <a class="nav-link collapsed" href="<?= base_url('pegawai/stokout'); ?>" aria-expanded="true" aria-controls="collapseStok">
+		            <i aria-hidden="true" role="presentation" class="fa fa-random q-icon notranslate"> </i>
+		            <span>Stock Out</span>
 		        </a>
 		        
 		    </li> 	

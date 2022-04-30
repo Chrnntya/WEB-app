@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\ModelHistoryStok;
 use App\Models\ModelStokBarang;
 use App\Models\ModelTransfer;
 
@@ -12,12 +13,13 @@ class TransferOut extends BaseController
     {
         $this->transferOut = new ModelTransfer();
         $this->dataStok = new ModelStokBarang();
+        $this->historyStok = new ModelHistoryStok();
     }
     public function index()
     {
         $data = [
             
-            'tampilstok' => $this->transferOut->tampildata()
+            'tampilstok' => $this->transferOut->tampildata_out()
         ];
         return view('admin-super/transferout/viewtransferout',$data);
     }
@@ -72,6 +74,16 @@ class TransferOut extends BaseController
                     'ditransferoleh' => $user,
                     'createdby' => $user,
                     'createddate' => $tgl
+                ]);
+                
+                $this->historyStok->insert([
+                    'tglhistori' => $tglkirim,
+                    'keterangan' => $keterangan,
+                    'kodestok' => $kodestok,
+                    'nobukti' => $no.$nobukti,
+                    'createdby' => $user,
+                    'createddate' => $tgl
+
                 ]);
                 return redirect()->to('transferout');
             }

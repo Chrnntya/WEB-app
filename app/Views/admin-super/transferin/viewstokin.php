@@ -26,7 +26,6 @@
                                     <table class="table table-responsive-lg table-bordered" id="dataTable" width="100%" cellspacing="0">
                                         <thead class="text-center">
                                             <tr>
-                                                <th>Aksi</th>
                                                 <th>No</th>
                                                 <th>No Bukti</th>
                                                 <th>Status Transfer</th>
@@ -51,7 +50,6 @@
                                             ?>
 
                                             <tr>
-                                                <td><a href="#update" class="btn btn-md btn-info"><i class="fa fa-pen-square"></i></a></td>
                                                 <td><?= $nomor++; ?></td>
                                                 <td><?= $row['nobukti']; ?></td>
                                                 <td><?= $row['statustransfer']; ?></td>

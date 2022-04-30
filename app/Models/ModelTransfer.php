@@ -29,15 +29,16 @@ class ModelTransfer extends Model
     }
     public function tampildata_in()
     {
+        $cabang = session()->get('cabang');
         $data = $this->table('tbldatatransfer')
         ->join('tbldatastok','tbldatastok.kodestok=tbldatatransfer.kodestok')
         ->join('tbldatakendaraan','tbldatastok.kodestok=tbldatakendaraan.kodestok')
-        ->where('statustransfer','DRAFT')
+        ->where('lokasitujuan',$cabang)
         ->orderBy('tglkirim')
         ->get()->getResultArray();
-        return $data;
-        
+        return $data; 
     }
+    
     public function tampildata_out()
     {
         $data = $this->table('tbldatatransfer')

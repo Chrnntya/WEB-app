@@ -30,10 +30,10 @@
 <body id="page-top">
 
     <!-- Page Wrapper -->
-    <div id="wrapper">
+    <div id="wrapper" class="noPrint">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion noPrint" id="accordionSidebar">
 		    <!-- Sidebar - Brand -->
 		    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('superadmin'); ?>">
 		        <div class="sidebar-brand-icon rotate-n-15">
@@ -86,11 +86,11 @@
 		        </a>
 		        <div id="collapseStok" class="collapse" aria-labelledby="headingStok" data-parent="#accordionSidebar">
 		            <div class="bg-white py-2 collapse-inner rounded">
-		                <a class="collapse-item" href="<?= base_url('transferin'); ?>">
+		                <a class="collapse-item" href="<?= base_url('stokin'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-arrow-circle-down q-icon notranslate"> </i>
 		                    Stock In
 		                </a>
-		                <a class="collapse-item" href="<?= base_url('transferout'); ?>">
+		                <a class="collapse-item" href="<?= base_url('stokout'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-arrow-circle-up q-icon notranslate"> </i>
 		                    Stok Out
 		                </a>
@@ -106,15 +106,15 @@
 		        </a>
 		        <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 		            <div class="bg-white py-2 collapse-inner rounded">
-		                <a class="collapse-item" href="<?= base_url('showroom/index'); ?>">
+		                <a class="collapse-item" href="<?= base_url('pameran/index'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-street-view q-icon notranslate">  </i>
 		                    Pameran
 		                </a>
-		                <a class="collapse-item" href="<?= base_url('showroom/transfer'); ?>">
+		                <a class="collapse-item" href="<?= base_url('transfer/index'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-random q-icon notranslate"> </i>
 		                    Transfer
 		                </a>
-		                <a class="collapse-item" href="<?= base_url('showroom/publish'); ?>">
+		                <a class="collapse-item" href="<?= base_url('publish'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-eye q-icon notranslate">  </i>
 		                    Publish
 		                </a>
@@ -129,7 +129,7 @@
 		        </a>
 		        <div id="collapseTri" class="collapse" aria-labelledby="headingTri" data-parent="#accordionSidebar">
 		            <div class="bg-white py-2 collapse-inner rounded">
-		                <a class="collapse-item" href="<?= base_url('laporan/index'); ?>">
+		                <a class="collapse-item" href="<?= base_url('datahistorystok/index'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-history q-icon notranslate">  </i>
 		                    History Stock
 		                </a>

@@ -1,4 +1,4 @@
-<?php $this->extend('layouts/admin/templates'); ?>
+<?php $this->extend('layouts/super-admin/templates'); ?>
 <?php $this->section('content'); ?>
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -11,48 +11,37 @@
                     <!-- Begin Page Content -->
                     <div class="container-fluid">
                         <!-- Page Heading -->
-                        <h1 class="h3 mb-2 text-gray-800">Form Tambah Tipe Kendaraan</h1>
+                        <h1 class="h3 mb-2 text-gray-800">Form Edit Data</h1>
                         <!-- DataTales Example -->
                         <div class="card shadow mb-4">
-                            
-                            <div class="card-body py-3">
+                            <div class="card-header py-3">
                                 <?= form_button('','<i class="fa fa-arrow-left"></i> Kembali', [
                                     'class' => 'btn btn-md btn-warning m-2',
-                                    'onclick' => "location.href=('".base_url('admin/cabang')."')"
+                                    'onclick' => "location.href=('".base_url('stokin')."')"
                                 ]) ?>
-
                             </div>
                             <div class="card-body col-md-6 justify-content-center">
-                                <?= form_open('admin/simpandata') ?>
+                                <?= form_open('stokin/updatedata','',[
+                                    'kodestok' => $kodestok
+                                ]) ?>
+                                
                                 <div class="form-group">
-                                    <label for="kodecabang">Kode Pos / Kode Cabang</label>
-                                    <?= form_input('kodecabang','',[
-                                        'class' => 'form-control',
-                                        'id' => 'kodecabang',
-                                        'autofocus' => true,
-                                        'placeholder' => 'Isikan Kode Pos / Kode Cabang..'
-                                    ]);
-                                    ?>
+                                    <div class="col-lg-6 col-sm-6">
+                                        <label for="startDate">Tanggal Order</label>
+                                        <input id="startDate" class="form-control" type="date" name="tgldatang"/>
+                                        <span id="startDateSelected"></span>
+                                    </div>
                                 </div>
-                                <?= form_open('datacabang/simpandata') ?>
+                                
                                 <div class="form-group">
-                                    <label for="namacabang">Nama Cabang</label>
-                                    <?= form_input('namacabang','',[
-                                        'class' => 'form-control',
-                                        'id' => 'namacabang',
-                                        'autofocus' => true,
-                                        'placeholder' => 'Isikan Nama Cabang..'
-                                    ]);
-                                    ?>
-                                </div>
-                                <div class="form-group">
-                                    <?= form_submit('','Simpan',[
+                                    <?= form_submit('','Update',[
                                         'class' => 'btn btn-md btn-success'
                                     ])
 
                                     ?>
                                 </div>
                                 <?= form_close(); ?>
+                                
                             </div>
                         </div>
 

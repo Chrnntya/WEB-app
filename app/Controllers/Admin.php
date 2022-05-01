@@ -4,9 +4,13 @@ namespace App\Controllers;
 
 use App\Models\ModelAdmin;
 use App\Models\ModelCabang;
+use App\Models\ModelKendaraan;
 use App\Models\ModelLogin;
+use App\Models\ModelPameran;
 use App\Models\ModelProfil;
 use App\Models\ModelStokBarang;
+use App\Models\ModelStokIn;
+use App\Models\ModelStokOut;
 
 class Admin extends BaseController
 {
@@ -16,6 +20,10 @@ class Admin extends BaseController
         $this->datauser = new ModelProfil();
         $this->datacabang = new ModelCabang();
         $this->datatransfer = new ModelAdmin();
+        $this->datapameran = new ModelPameran();
+        $this->dataKendaraan = new ModelKendaraan();
+        $this->dataStokOut = new ModelStokOut();
+        $this->dataStokIn = new ModelStokIn();
 
     }
     public function index()
@@ -132,9 +140,11 @@ class Admin extends BaseController
                 ]
             ]
             ]);
-        if (!$valid) {
+        $rowData = $this->datacabang->find($kodecabang);
+        $rowDatas = $this->datacabang->find($namacabang);
+        if (($rowData&&$rowDatas)>0) {
             $pesan = [
-                'errorkodecabang' => $validation->getError()
+                'errorkodecabang' => "data sudah ada"
             ];
 
             session()->setFlashdata($pesan);
@@ -142,13 +152,14 @@ class Admin extends BaseController
         }else{
             $tgl = date("d/m/Y h:i:s");
             $user = session()->get('username');
+            $kodecb = "CB";
             $this->datacabang->insert([
-                'kodecabang' => $kodecabang,
+                'kodecabang' => $kodecb.$kodecabang,
                 'namacabang' => $namacabang,
                 'createdby' => $user,
                 'createddate' => $tgl
                 ]);
-                return redirect()->to('admin/cabang');
+            return redirect()->to('admin/cabang');
         }
     }
     public function edit_cabang($kodecabang)
@@ -214,17 +225,11 @@ class Admin extends BaseController
     public function stokin()
     {
         $data = [
-            'tampilstok' => $this->datatransfer->tampildata_in()
+            'tampilstok' => $this->dataStokIn->findAll()
         ];
-        return view('admin/transferin/viewstokin',$data);
+        return view('admin/stok-in/viewstokin',$data);
     }
-    public function stokout()
-    {
-        $data = [
-            'tampilstok' => $this->datatransfer->tampildata_out()
-        ];
-        return view('admin/transferout/viewtransferout',$data);
-    }
+    
     //update transfer stok in
     public function updateTransferStok()
     {
@@ -242,21 +247,29 @@ class Admin extends BaseController
     }
 
     //membuat stok out
+    public function stokout()
+    {
+        $data = [
+            'tampilstok' => $this->dataStokOut->tampildata()
+        ];
+        return view('admin/stok-out/viewtransferout',$data);
+    }
     public function tambah_transferout()
     {
         $data = [
-            'tampildata' => $this->stokbarang->findAll()
+            'kodestok' => $this->dataKendaraan->tampilStok()
         ];
-        return view('admin/transferout/formtambah',$data);
+        return view('admin/stok-out/formtambah',$data);
     }
     //simpan data stok out
     public function simpan_stokout()
     {
         $kodestok = $this->request->getVar('kodestok');
-        $nobukti = $this->request->getVar('nobukti');
-        $lokasitujuan = $this->request->getVar('lokasitujuan');
-        $namasupir = $this->request->getVar('namasupir');
-        $keterangan = $this->request->getVar('keterangan');
+        $nospk = $this->request->getVar('nospk');
+        $namasales = $this->request->getVar('namasales');
+        $namakonsumen = $this->request->getVar('namakonsumen');
+        $tgldo = $this->request->getVar('tgldo');
+        $terjual = $this->request->getVar('terjual');
         $validation = \Config\Services::validation();
         $valid = $this->validate([
             'kodestok' => [
@@ -274,39 +287,94 @@ class Admin extends BaseController
                 ];
 
                 session()->setFlashdata($pesan);
-                return redirect()->to('admin/transferout/formtambah');
+                return redirect()->to('stokout/formtambah');
             } else{
-                $tgl = date("Y-m-d h:i:s");
-                $tglkirim = date("Y-m-d");
+                $tgl = date("Y-m-d h:m:s");
                 $user = session()->get('username');
-                $no = "TRF";
-                $status = "DRAFT";
-                $this->datatransfer->insert([
+                $this->dataStokOut->insert([
                     'kodestok' => $kodestok,
-                    'statustransfer' => $status,
-                    'nobukti' => $no.$nobukti,
-                    'lokasitujuan' => $lokasitujuan,
-                    'tglkirim' => $tglkirim,
-                    'namasupir' => $namasupir,
-                    'keterangan' => $keterangan,
-                    'ditransferoleh' => $user,
+                    'nospk' => $nospk,
+                    'namasales' => $namasales,
+                    'namakonsumen' => $namakonsumen,
+                    'tgldo' => $tgldo,
                     'createdby' => $user,
                     'createddate' => $tgl
                 ]);
+                $this->stokbarang->update($kodestok,[
+                    'terjual' => $terjual
+                ]);
+                
                 return redirect()->to('admin/stokout');
             }
     }
+    //pameran
+    //membuat sview pameran
+    public function pameran()
+    {
+        $data = [
+            'tampildata' => $this->datapameran->tampilPameran()
+        ];
+        return view('admin/showroom/viewspameran',$data);
+    }
+    //update pameran
+    public function updatePameran()
+    {
+        $nobukti = $this->request->getVar('nobukti');
+        $dikonfirmasioleh = $this->request->getVar('dikonfirmasioleh');
+        $isconfirmed = $this->request->getVar('isconfirmed');
 
+        $this->datapameran->update($nobukti,[
+            'dikonfirmasioleh' => $dikonfirmasioleh,
+            'isconfirmed' => $isconfirmed
+        ]);
+        return redirect()->to('admin/pameran');
 
+    }
 
+    //membuat sview pameran
+    public function publish()
+    {
+        $data = [
+            'tampildata' => $this->stokbarang->findAll(),
+            'tampilpublish' => $this->dataKendaraan->tampilNotPublish(),
+            'title' => "<h1 style='color:black;'>Data Unit Yang Belum Publish</h1>",
+            'btnpublish' => "#modal",
+            'btn' => "1"
+        ];
+        return view('admin/showroom/viewspublish',$data);
+    }
+    public function notpublish()
+    {
+        $data = [
+            'tampildata' => $this->stokbarang->findAll(),
+            'tampilpublish' => $this->dataKendaraan->tampilPublish(),
+            'title' => "<h1 style='color:black;'>Data Unit Yang Sudah Publish</h1>",
+            'btnpublish' => "#modal2",
+            'btn' => "2"
+        ];
+        return view('admin/showroom/viewspublish',$data);
+    }
+    //update publish
+    public function updatePublish()
+    {
+        $nobukti = $this->request->getVar('kodestok');
+        $ispublish = $this->request->getVar('ispublish');
+        $createdby = $this->request->getVar('createdby');
 
+        $this->stokbarang->update($nobukti,[
+            'ispublish' => $ispublish,
+            'createdby' => $createdby
+        ]);
+        if ($ispublish==1) {
+            return redirect()->to('admin/publish');
+        }
+        elseif ($ispublish==0) {
+            return redirect()->to('admin/notpublish');
+        }
 
+    }
 
-
-
-
-
-
+    //data barang
     public function databarang()
     {
         //return view('layouts/super-admin/header');

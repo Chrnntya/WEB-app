@@ -33,7 +33,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion noPrint" id="accordionSidebar">
 		    <!-- Sidebar - Brand -->
 		    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('admin'); ?>">
 		        <div class="sidebar-brand-icon rotate-n-15">
@@ -95,15 +95,11 @@
 		        </a>
 		        <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 		            <div class="bg-white py-2 collapse-inner rounded">
-		                <a class="collapse-item" href="<?= base_url('showroom/index'); ?>">
+		                <a class="collapse-item" href="<?= base_url('admin/pameran'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-street-view q-icon notranslate">  </i>
 		                    Pameran
 		                </a>
-		                <a class="collapse-item" href="<?= base_url('showroom/transfer'); ?>">
-		                    <i aria-hidden="true" role="presentation" class="fa fa-random q-icon notranslate"> </i>
-		                    Transfer
-		                </a>
-		                <a class="collapse-item" href="<?= base_url('showroom/publish'); ?>">
+		                <a class="collapse-item" href="<?= base_url('admin/publish'); ?>">
 		                    <i aria-hidden="true" role="presentation" class="fa fa-eye q-icon notranslate">  </i>
 		                    Publish
 		                </a>

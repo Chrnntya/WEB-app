@@ -12,10 +12,21 @@
                     <div class="container-fluid">
                         <!-- Page Heading -->
                         <h1 class="h3 mb-2 text-gray-800">Cabang</h1>
+                        <?php
+                        if(session()->getFlashData('errorkodecabang')){
+                        ?>
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <?= session()->getFlashData('errorkodecabang') ?>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <?php
+                        }
+                        ?>
                         <!-- DataTales Example -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">DataTables</h6>
                                 <a class="btn btn-primary btn-md" href="<?= base_url('admin/formtambah'); ?>"> <i class="fa fa-plus-circle"></i> Tambah Data Cabang</a>
                             </div>
                             <div class="card-body">
@@ -27,7 +38,7 @@
                                                 <th>Kode Cabang</th>
                                                 <th>Nama Cabang</th>
                                                 <th>Created by</th>
-                                                <th>Aksi</th>
+                                                <!-- <th>Aksi</th> -->
                                             </tr>
                                         </thead>
                                         <tfoot class="text-center">
@@ -36,7 +47,7 @@
                                                 <th>Kode Cabang</th>
                                                 <th>Nama Cabang</th>
                                                 <th>Created by</th>
-                                                <th>Aksi</th>
+                                                <!-- <th>Aksi</th> -->
                                             </tr>
                                         </tfoot>
                                         <tbody>
@@ -47,14 +58,14 @@
 
                                             <tr>
                                                 <td><?= $nomor++; ?></td>
-                                                <td><?= $row['kodecabang']; ?></td>
-                                                <td><?= $row['namacabang']; ?></td>
-                                                <td><?= $row['createdby']; ?></td>
+                                                <td class="text-center"><?= $row['kodecabang']; ?></td>
+                                                <td class="text-center"><?= $row['namacabang']; ?></td>
+                                                <td class="text-center"><?= $row['createdby']; ?></td>
                                                 
-                                                <td class="text-center">
+                                                <!-- <td class="text-center">
                                                     <button class="btn btn-sm btn-warning"  title="Edit data" onclick="edit('<?= $row['kodecabang'] ?>')">Edit</button>
                                                     <button class="btn btn-sm btn-danger"  title="Hapus data" onclick="hapus('<?= $row['kodecabang'] ?>')">Hapus</button>
-                                                </td>
+                                                </td> -->
                                             </tr>
 
                                             <?php endforeach; ?>

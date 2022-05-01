@@ -1,7 +1,20 @@
-<?php $this->extend('layouts/super-admin/templates'); ?>
+<?php $this->extend('layouts/admin/templates'); ?>
 <?php $this->section('content'); ?>
+    <style type="text/css">
+        @media print {
+            .noPrint{
+                display:none;
+            }
+            .Print{
+                display: flex;
+            }
+        }
+        table{
+            font-size: 14px;
+        }
+    </style>
     <!-- Page Wrapper -->
-    <div id="wrapper">
+    <div id="wrapper" class="noPrint">
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
             <!-- Main Content -->
@@ -10,28 +23,31 @@
                 
                     <!-- Begin Page Content -->
                     <div class="container-fluid">
-                        <!-- Page Heading -->
                         <!-- DataTales Example -->
                         <div class="card shadow mb-4">
-                            <div class="card-header py-3">
+                            <div class="card-header py-3 noPrint">
                                 <?php 
                                 if ($btn==2) {
-                                    echo("<a class='btn btn-primary' href='".base_url('publish/index')."'>Belum Publish</a>");
+                                    echo("<a class='btn btn-primary' href='".base_url('admin/publish')."'>Belum Publish</a>");
+                                    echo " ";
+                                    echo("<button class='btn btn-secondary' onclick='window.print()''><i class='fa fa-print'></i></button>");
                                 }
                                 elseif ($btn==1) {
-                                    echo("<a class='btn btn-success' href='".base_url('publish/publish_view')."'>Sudah Publish</a>");
+                                    echo("<a class='btn btn-success' href='".base_url('admin/notpublish')."'>Sudah Publish</a>");
+                                    echo " ";
+                                    echo("<button class='btn btn-secondary' onclick='window.print()''><i class='fa fa-print'></i></button>");
                                 }
                                 ?>
                 
                             </div>
-                            <div class="card-body">
+                            <div class="card-body Print">
                                 <div class="row">
                                     <div class="col d-flex justify-content-center">
                                         <div class="table-responsive">
                                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                                 <thead class="text-center">
                                                     <tr>
-                                                        <th>Publish Unit</th>
+                                                        <th class="noPrint">Publish Unit</th>
                                                         <th>Merks</th>
                                                         <th>Tipe Kendaraan</th>
                                                         <th>Sub Tipe</th>
@@ -52,7 +68,7 @@
 
                                                     <tr>
                                                         
-                                                        <td class="text-center">
+                                                        <td class="text-center noPrint">
                                                             <a href="" class="btn btn-sm btn-warning" data-toggle="modal" data-target="<?php echo $btnpublish.$row['kodestok']; ?>">
                                                             <i class="fa fa-exclamation-circle" aria-hidden="true"></i> Confirm
                                                             </a>
@@ -82,7 +98,7 @@
                                                                         <?php 
                                                                         $tgl = date('Y-m-d');
                                                                         ?>
-                                                                        <form action="<?= base_url('publish/updateStok') ?>">
+                                                                        <form action="<?= base_url('admin/updatePublish') ?>">
                                                                             <input type="hidden" name="kodestok" value="<?= $row['kodestok']; ?>">
                                                                             <input type="hidden" name="createdby" value="<?= session()->get('username'); ?>">
                                                                             <input type="hidden" name="ispublish" value="1">
@@ -114,7 +130,7 @@
                                                                         <?php 
                                                                         $tgl = date('Y-m-d');
                                                                         ?>
-                                                                        <form action="<?= base_url('publish/updateStok') ?>">
+                                                                        <form action="<?= base_url('admin/updatePublish') ?>">
                                                                             <input type="hidden" name="kodestok" value="<?= $row['kodestok']; ?>">
                                                                             <input type="hidden" name="createdby" value="<?= session()->get('username'); ?>">
                                                                             <input type="hidden" name="ispublish" value="0">

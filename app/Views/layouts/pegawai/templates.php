@@ -73,25 +73,15 @@
 		        </a>
 		        
 		    </li> 	
-		    <!-- Nav Item - Pages Collapse Menu -->
+			<!-- Nav Item - Pages Collapse Menu -->
 		    <li class="nav-item">
-		        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseTwo">
-		            <i class="fas fa-fw fa-cog"></i>
-		            <span>Show Room</span>
+		        <a class="nav-link collapsed" href="<?= base_url('pegawai/pameran'); ?>" aria-expanded="true" aria-controls="collapseStok">
+		            <i aria-hidden="true" role="presentation" class="fa fa-random q-icon notranslate"> </i>
+		            <span>Transfer Pameran</span>
 		        </a>
-		        <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-		            <div class="bg-white py-2 collapse-inner rounded">
-		                <a class="collapse-item" href="<?= base_url('pegawai/stokbarang'); ?>">
-		                    <i aria-hidden="true" role="presentation" class="fa fa-street-view q-icon notranslate">  </i>
-		                    Pameran
-		                </a>
-		                <a class="collapse-item" href="<?= base_url('pegawai/penjualan'); ?>">
-		                    <i aria-hidden="true" role="presentation" class="fa fa-random q-icon notranslate"> </i>
-		                    Penjualan
-		                </a>
-		            </div>
-		        </div>
-		    </li>
+		        
+		    </li> 
+		    
 		    
 		    
 		    <!-- Divider -->

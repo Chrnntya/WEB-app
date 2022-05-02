@@ -18,7 +18,7 @@ class ModelPameran extends Model
         'dikonfirmasioleh',
         'isconfirmed',
         'kodestok',
-        'keterangan',
+        'keterangan_pameran',
         'createdby',
         'createddate'
           

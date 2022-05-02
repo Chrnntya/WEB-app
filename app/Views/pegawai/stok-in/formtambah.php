@@ -18,12 +18,12 @@
                             <div class="card-body py-3">
                                 <?= form_button('','<i class="fa fa-arrow-left"></i> Kembali', [
                                     'class' => 'btn btn-md btn-warning m-2',
-                                    'onclick' => "location.href=('".base_url('pegawai/stokout')."')"
+                                    'onclick' => "location.href=('".base_url('stokout')."')"
                                 ]) ?>
 
                             </div>
                             <div class="card-body col-md-6 justify-content-center">
-                                <?= form_open('pegawai/simpandata_out') ?>
+                                <?= form_open('admin/simpan_stokout') ?>
                                 <div class="form-group">
                                     <label for="kodecabang">Jenis Unit</label>
                                     <select class="form-control" name="kodestok" id="kodestok">

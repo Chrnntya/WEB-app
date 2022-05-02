@@ -2,11 +2,15 @@
 
 namespace App\Controllers;
 
+use App\Models\ModelCabang;
+use App\Models\ModelKendaraan;
+use App\Models\ModelPameran;
 use App\Models\ModelProfil;
 use App\Models\ModelStokBarang;
+use App\Models\ModelStokIn;
 use App\Models\ModelStokOut;
 use App\Models\ModelTransfer;
-use App\Models\ModelUser;
+
 
 class Pegawai extends BaseController
 {
@@ -16,6 +20,10 @@ class Pegawai extends BaseController
         $this->stokbarang = new ModelStokBarang();
         $this->transferIn = new ModelTransfer();
         $this->stokOut = new ModelStokOut();
+        $this->dataKendaraan = new ModelKendaraan();
+        $this->dataStokIn = new ModelStokIn();
+        $this->dataPameran = new ModelPameran();
+        $this->datacabang = new ModelCabang();
     }
     public function index()
     {
@@ -27,10 +35,9 @@ class Pegawai extends BaseController
     {
         
         $data = [
-            
-            'tampilstok' => $this->transferIn->tampildata_in()
+            'tampilstok' => $this->dataStokIn->findAll()
         ];
-        return view('pegawai/transferin/viewstokin',$data);
+        return view('pegawai/stok-in/viewstokin',$data);
     }
     public function penjualan()
     {
@@ -164,7 +171,7 @@ class Pegawai extends BaseController
     public function formtambah_out()
     {
         $data = [
-            'kodestok' => $this->stokbarang->findAll()
+            'kodestok' => $this->dataKendaraan->tampilStok()
         ];
         
         return view('pegawai/stok-out/formtambah',$data);
@@ -208,6 +215,86 @@ class Pegawai extends BaseController
                 ]);
                 
                 return redirect()->to('pegawai/stokout');
+            }
+    }
+
+    //Pameran
+    //membuat view pameran
+    public function pameran()
+    {
+        $data = [
+            'tampildata' => $this->dataPameran->tampilPameran()
+        ];
+        return view('pegawai/pameran/viewspameran',$data);
+    }
+    //update pameran
+    public function updatePameran()
+    {
+        $nobukti = $this->request->getVar('nobukti');
+        $dikonfirmasioleh = $this->request->getVar('dikonfirmasioleh');
+        $isconfirmed = $this->request->getVar('isconfirmed');
+
+        $this->dataPameran->update($nobukti,[
+            'dikonfirmasioleh' => $dikonfirmasioleh,
+            'isconfirmed' => $isconfirmed
+        ]);
+        return redirect()->to('pegawai/pameran');
+
+    }
+    public function formtambah_pameran()
+    {
+        $data = [
+            'tampilcabang' => $this->datacabang->findAll(),
+            'tampildata' => $this->stokbarang->findAll(),
+            'tampiltipe' => $this->dataKendaraan->tampilTipeKendaraan(),
+            'tampilkode' => $this->dataPameran->createCode()
+        ];
+        //dd($data);
+        return view('pegawai/pameran/formtambah',$data);
+    }
+    public function simpandata_pameran()
+    {
+        $cabang = $this->request->getVar('cabang');
+        $kodestok = $this->request->getVar('kodestok');
+        $nobukti = $this->request->getVar('nobukti');
+        $tglawalpameran = $this->request->getVar('tglawalpameran');
+        $tglakhirpameran = $this->request->getVar('tglakhirpameran');
+        $namasupir = $this->request->getVar('namasupir');
+        $keterangan = $this->request->getVar('keterangan_pameran');
+        $validation = \Config\Services::validation();
+        $valid = $this->validate([
+            'kodestok' => [
+                'rules' => 'required',
+                'label' => 'nama kategori',
+                'errors' => [
+                    'required' => '{field} Tidak boleh kosong'
+                ]
+            ]
+            ]);
+
+            if (!$valid){
+                $pesan = [
+                    'errorKodeStok' => $validation->getError()
+                ];
+
+                session()->setFlashdata($pesan);
+                return redirect()->to('pegawai/formtambah_pameran');
+            } else{
+                $tgl = date("Y-m-d h:m:s");
+                $user = session()->get('username');
+                $this->dataPameran->insert([
+                    'cabang' => $cabang,
+                    'kodestok' => $kodestok,
+                    'nobukti' => $nobukti,
+                    'tglawalpameran' => $tglawalpameran,
+                    'tglakhirpameran' => $tglakhirpameran,
+                    'namasupir' => $namasupir,
+                    'keterangan_pameran' => $keterangan,
+                    'dibuatoleh' => $user,
+                    'createdby' => $user,
+                    'createddate' => $tgl
+                ]);
+                return redirect()->to('pegawai/pameran');
             }
     }
 
